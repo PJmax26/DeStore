@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <header id="home">
+        <nav class="nav__bar">
+            <div class="menu_btn">&#9776;</div>
+
+            <div class="logo">DeStore</div>
+
+            <ul class="nav__links">
+                <div class="close_btn">&times;</div>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="navigators">
+                <div class="search">
+                    <input type="text">
+                    <div class="search__icon">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+    
+                <div class="cart">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <div class="dot">2</div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero hero-1" id="hero">
+            <div class="hero__text">
+                <h3>Do it now. run on air</h3>
+                <h1>Flexing Snicks</h1>
+                <a href="" class="btn">Get Now</a>
+            </div>
+
+            <div class="hero__fig">
+                <img src="./images/nike-bg.png" alt="">
+            </div>
+        </section>
+
+        <section class="hero hero-2" id="hero">
+            <div class="hero__text">
+                <h3>Do it now. Move with swag</h3>
+                <h1>Dori Hoodies</h1>
+                <a href="" class="btn">Get Now</a>
+            </div>
+
+            <div class="hero__fig">
+                <img src="./images/h-dark-bg.png" alt="">
+            </div>
+        </section>
+
+        <div class="hero__change">
+            <button class="box snicks_box active">
+                <img src="images/nike-bg.png" alt="">
+            </button>
+            <button class="box hoodies_box">
+                <img src="images/h-dark-bg.png" alt="">
+            </button>
+        </div>
+    </header>
+
+    <section class="featured" id="featured">
+        <h3>Featured Products</h3>
+        <div class="products__container">
+            <div class="product">
+                <img src="images/bag-1.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$150.50</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product">
+                <img src="images/h-red-1.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.75</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product">
+                <img src="images/nike-dark-2.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$170</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product">
+                <img src="images/bag-3.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$100.50</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product">
+                <img src="images/h-red-3.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$250</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product">
+                <img src="images/nike-light-1.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product">
+                <img src="images/h-dark-bg.png">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$190.80</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about__fig">
+            <img src="images/h-red-bg.png" alt="">
+        </div>
+        <div class="about__text">
+            <h1>Explore DeStore Now...</h1>
+            <h3>About Us</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, praesentium provident? Saepe incidunt rem praesentium dicta deserunt unde, nisi, ab, neque quaerat expedita eligendi quasi ipsam est eos. Qui blanditiis dolore totam! Quae repellendus eveniet magni eum maiores distinctio repudiandae. Ipsa unde aspernatur voluptate error. Veritatis dolores eos in voluptatum.
+            </p>
+            <button class="btn">Explore More</button>
+        </div>
+    </section>
+
+    <!-- collection -->
+    <section class="collection" id="collection">
+        <aside>
+            <h3>Category</h3>
+
+            <div class="aside__btns">
+                <button class="aside__btn live" id="all">All</button>
+                <button class="aside__btn" id="bags">Bags</button>
+                <button class="aside__btn" id="snickers">Snickers</button>
+                <button class="aside__btn" id="hoodies">Hoodies</button>
+            </div>
+        </aside>
+
+        <main class="collection__container">
+            <div class="product collection_product" id="bag">
+                <img src="images/bag-1.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product collection_product" id="snickers">
+                <img src="images/nike-dark-1.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product collection_product" id="hoodies">
+                <img src="images/h-red-1.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product collection_product" id="snickers">
+                <img src="images/nike-light-1.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product collection_product" id="bag">
+                <img src="images/bag-2.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product collection_product" id="bag">
+                <img src="images/bag-3.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product collection_product" id="snickers">
+                <img src="images/nike-dark-2.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product collection_product" id="hoodies">
+                <img src="images/h-red-2.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product collection_product" id="snickers">
+                <img src="images/nike-light-1.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product collection_product" id="snickers">
+                <img src="images/nike-light-2.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product collection_product" id="hoodies">
+                <img src="images/h-red-3.jpg">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="product collection_product" id="hoodies">
+                <img src="images/h-dark-bg.png">
+                <div class="stars">&star; &star; &star; &star; &star;</div>
+                <h4>$200.99</h4>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+        </main>
+    </section>
+
+    <img src="images/wave.svg" alt="">
+
+    <script src="main.js"></script>
+</body>
+</html>
